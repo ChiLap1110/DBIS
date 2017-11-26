@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE IVBF-Light SYSTEM "XML_DTD.dtd">
+<IVBF-Light>
+	<!--Kunde1-->
+	<Kunden KID="k1">
+		<KNR>1</KNR>
+		<Name>Hong</Name>
+		<Vorname>ChiLap</Vorname>
+		<Email>h.lap96@googlemail.com</Email>
+		<Telefon>
+			<Vorwahl>07621</Vorwahl>
+			<TelefonNr>78162</TelefonNr>
+		</Telefon>
+		<Bankverbindung>
+			<Kontonr>123456</Kontonr>
+			<BLZ>1234567</BLZ>
+		</Bankverbindung>
+	</Kunden>
+	
+	<!--Kunde2-->
+	<Kunden KID="k2">
+
+		<KNR>2</KNR>
+		<Name>Grutz</Name>
+		<Vorname>Basti</Vorname>
+		<Email>h.lap96@googlemail.com</Email>
+		<Telefon>
+			<Vorwahl>07621</Vorwahl>
+			<TelefonNr>78162</TelefonNr>
+		</Telefon>
+		<Bankverbindung>
+			<Kontonr>123456</Kontonr>
+			<BLZ>1234567</BLZ>
+		</Bankverbindung>
+	</Kunden>
+	
+		<!--Kunde3-->
+	<Kunden KID="k3">
+		<KNR>3</KNR>
+		<Name>Oprev</Name>
+		<Vorname>Georgi</Vorname>
+		<Email>h.lap96@googlemail.com</Email>
+		<Telefon>
+			<Vorwahl>07621</Vorwahl>
+			<TelefonNr>78162</TelefonNr>
+		</Telefon>
+		<Bankverbindung>
+			<Kontonr>123456</Kontonr>
+			<BLZ>1234567</BLZ>
+		</Bankverbindung>
+	</Kunden>
+	
+	
+	<!--Ferienwohnung1-->
+	<Ferienwohnungen FID="f1">
+		<FWNR>1</FWNR>
+		<Beschreibung>Am See</Beschreibung>
+		<Bilder>
+			<Bild>
+				<Dateipfad>AmSee.jpg</Dateipfad>
+				<Beschreibung>Brutalschön</Beschreibung>
+			</Bild>
+			<Bild>
+				<Dateipfad>AmSee2.jpg</Dateipfad>
+				<Beschreibung>Brutalgeil</Beschreibung>
+			</Bild>
+		</Bilder>
+	</Ferienwohnungen>
+	
+		<!--Ferienwohnung2-->
+	<Ferienwohnungen FID="f2">
+		<FWNR>2</FWNR>
+		<Beschreibung>Wohnung mit Seeblick</Beschreibung>
+		<Bilder>
+			<Bild>
+				<Dateipfad>AmSee.jpg</Dateipfad>
+				<Beschreibung>Brutalschön</Beschreibung>
+			</Bild>
+			<Bild>
+				<Dateipfad>AmSee2.jpg</Dateipfad>
+				<Beschreibung>Brutalgeil</Beschreibung>
+			</Bild>
+		</Bilder>
+	</Ferienwohnungen>
+	
+		<!--Ferienwohnung3-->
+	<Ferienwohnungen FID="f3">
+		<FWNR>3</FWNR>
+		<Beschreibung>Am See</Beschreibung>
+		<Bilder>
+			<Bild>
+				<Dateipfad>AmSee.jpg</Dateipfad>
+				<Beschreibung>Brutalschön</Beschreibung>
+			</Bild>
+			<Bild>
+				<Dateipfad>AmSee2.jpg</Dateipfad>
+				<Beschreibung>Brutalgeil</Beschreibung>
+			</Bild>
+		</Bilder>
+	</Ferienwohnungen>
+	
+	
+	
+	<buchen FID="f1" KID="k1" >
+		<von>01.01.2017</von>
+		<bis>31.01.2017</bis>
+	</buchen>
+	<buchen FID="f2" KID="k2" >
+		<von>01.01.2017</von>
+		<bis>31.01.2017</bis>
+	</buchen>
+	<buchen FID="f3" KID="k3" >
+		<von>01.01.2017</von>
+		<bis>31.01.2018</bis>
+	</buchen>
+	<buchen FID="f3" KID="k1" >
+		<von>11.10.2017</von>
+		<bis>31.03.2018</bis>
+	</buchen>
+	<buchen FID="f1" KID="k1" >
+		<von>01.02.2017</von>
+		<bis>01.03.2017</bis>
+	</buchen>
+	
+
+	
+	
+	
+</IVBF-Light>

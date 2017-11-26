@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Wurzelelement-->
+<!ELEMENT IVBF-Light		(Kunden*,Ferienwohnungen*,buchen*)>
+<!ELEMENT Kunden			(KNR,Name,Vorname?,Email+,Telefon+,Bankverbindung?)>
+<!ATTLIST Kunden KID ID #REQUIRED>
+<!ELEMENT Bankverbindung	(Kontonr,BLZ)>
+<!ELEMENT Telefon			(Vorwahl,TelefonNr)>
+<!ELEMENT Ferienwohnungen	(FWNR,Beschreibung,Bilder)>
+<!ATTLIST Ferienwohnungen FID ID #REQUIRED>
+<!ELEMENT Bilder			(Bild,Bild?,Bild?,Bild?)>
+<!ELEMENT Bild 				(Dateipfad,Beschreibung)>
+<!ELEMENT buchen (von,bis)>
+<!ATTLIST buchen 			
+					FID IDREF #REQUIRED
+					KID IDREF #REQUIRED>
+
+
+
+
+<!ELEMENT KNR 			(#PCDATA)>
+<!ELEMENT Name 			(#PCDATA)>
+<!ELEMENT Vorname 		(#PCDATA)>
+<!ELEMENT Vorwahl 		(#PCDATA)>
+<!ELEMENT TelefonNr 	(#PCDATA)>
+<!ELEMENT FWNR 			(#PCDATA)>
+<!ELEMENT Beschreibung 	(#PCDATA)>
+<!ELEMENT Dateipfad 	(#PCDATA)>
+<!ELEMENT Email 		(#PCDATA)>
+<!ELEMENT Kontonr		(#PCDATA)>
+<!ELEMENT BLZ 			(#PCDATA)>
+<!ELEMENT von 			(#PCDATA)>
+<!ELEMENT bis 			(#PCDATA)>
+
